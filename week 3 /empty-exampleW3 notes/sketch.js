@@ -42,7 +42,7 @@ function setup() {
 
 function draw() {
 
-frameRate(5);
+frameRate(30);
     
     console.log(frameRate);
     

@@ -48,7 +48,7 @@ frameRate(30);
     
     background(backgroundColor);
     
-    //ellipse(random(width), random(height),50,50)
+    ellipse(random(width), random(height),50,50)
    
     MapX = map(mouseX, 0, width, -10,10)
     

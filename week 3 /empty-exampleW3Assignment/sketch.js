@@ -48,7 +48,6 @@ function draw() {
     
     MapF = map(160, mouseY, 10,10, width)
     
-   
     
     ellipse(mouseX,mouseY,10,10)
 
@@ -89,6 +88,8 @@ fill('black')
 ellipse(382,127,5 + MapX,2)
 //grass
 fill('blue')
+randNum = random(150);
+fill(randNum)
 rect(30 + MapY, 250, 5, 50)
 rect(50 + MapX, 210, 5, 50)
 rect(80 + MapY, 250, 5, 50)
@@ -109,6 +110,13 @@ rect(480 + MapY, 250, 5, 50)
 rect(510 + MapX, 210, 5, 50)
 
 
+    //randNum = random(256);
+    //fill(randNum,0,0);
+    //arc(280,300,200,100, 0, PI)
+    
+   
+   // MORE NOTES:
+   // MAP(MoveX, 0, Widthm 0, 10)
 
 
 //ellipse(300,200,50,50);
